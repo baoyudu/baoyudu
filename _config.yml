@@ -28,7 +28,7 @@ zhihu_username: baoyudu0
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: redcarpet
 redcarpet:
-  extensions: []
+  extensions: [fenced_code_blocks]
 highlighter: rouge
 
 gems: 
