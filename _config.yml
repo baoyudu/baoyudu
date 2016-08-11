@@ -1,6 +1,6 @@
 ﻿# Site settings
 title: 霅煜独徘徊
-header-img: "img/tree.jpg"
+header-img: "img/gallery-example-3.jpg"
 tagline: "霅煜独徘徊"  
 description: "遙遠的地方 繁華中盡是空幽"
 baseurl: ""
@@ -14,8 +14,8 @@ owner:
   bio: "举目四望山依旧，回首却见人无常"
 
 # Data
-gavatar: img/icon.jpg
-favicon: img/icon.ico
+gavatar: img/favicon.jpg
+favicon: img/favicon.ico
 
 
 
