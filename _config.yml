@@ -26,7 +26,8 @@ zhihu_username: baoyudu0
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: markdown
+markdown: kramdown
+kramdown:
   input: GFM
 highlighter: rouge
 
