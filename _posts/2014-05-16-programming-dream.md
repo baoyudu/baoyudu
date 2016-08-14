@@ -4,7 +4,7 @@ title: 编程梦想之路
 date: 2014-05-16 19:42
 author: admin
 comments: true
-categories: [编程笔记]
+categories: [Programming]
 ---
 > 时隔两年多 笔者再看当年略显幼稚的第一篇博文 不禁感慨万千
 
