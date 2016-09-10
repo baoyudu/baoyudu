@@ -73,7 +73,7 @@ layout: default
                 <div class="ds-share"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | 霅煜独徘徊 BaoYu's Blog"
+                    data-content="{{ content | strip_html | truncate:80 }} | 心路笔记 BaoYu's Blog"
                     data-url="{{site.url}}{{page.url}}">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
@@ -117,6 +117,7 @@ var duoshuoQuery = {short_name:"bestbao"};
         (document.getElementsByTagName('head')[0]
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
+    
 </script>
 <!-- 多说公共JS代码 end -->
 
