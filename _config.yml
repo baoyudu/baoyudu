@@ -94,23 +94,18 @@ prose:
           value: ""
           placeholder: "Input your abstract here"
           type: "text"
-              
+
       - name: "tags"
         field:
-          element: "select"
+          element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Internet"
-              value: "Internet"
-            - name: "Programming"
-              value: "Programming"
-            - name: "Music"
-              value: "Music"
-            - name: "Daily"
-              value: "Daily"
-            - name: "Write"
-              value: "Write"
-            - name: "Other"
-              value: "Other"
-     
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
