@@ -94,11 +94,3 @@ prose:
           value: ""
           placeholder: "Input your abstract here"
           type: "text"
-
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          value: ""
-          placeholder: "Input your tag here"
-          type: "text"
