@@ -103,7 +103,7 @@ prose:
                 
       - name: "tags"  
         field:
-          element: "tags"
+          element: "text"
           label: "tags"
           value: ""
           placeholder: "Input your tags here"
