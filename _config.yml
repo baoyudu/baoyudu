@@ -97,16 +97,6 @@ prose:
           placeholder: "Input your abstract here"
           type: "text"
 
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
-
       - name: "category"
         field:
           element: "hidden"
