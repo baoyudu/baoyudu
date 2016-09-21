@@ -77,7 +77,6 @@ bing_verify:
 # Links to include in footer navigation
 prose:
   rooturl: "_posts"
-  # siteurl: "http://liyu1981.github.io/"
   media: "images"
   metadata:
     _posts:
