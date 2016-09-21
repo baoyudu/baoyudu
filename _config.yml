@@ -103,10 +103,3 @@ prose :
           value: ""
           placeholder: "Input your tag here"
           type: "text"
-
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
-          
- 
