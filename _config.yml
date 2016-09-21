@@ -77,8 +77,10 @@ bing_verify:
 # Links to include in footer navigation
 prose:
   rooturl: "_posts"
+  # siteurl: "http://liyu1981.github.io/"
+  media: "images"
   metadata:
-    _posts:
+    _posts/blog:
       - name: "title"
         field:
           element: "text"
@@ -95,16 +97,25 @@ prose:
           placeholder: "Input your abstract here"
           type: "text"
 
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          value: ""
+          placeholder: "Input your tag here"
+          type: "text"
+          
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+
       - name: "published"
         field:
           element: "hidden"
           value: "true"
-                
-                
-      - name: "tags"  
-        field:
-          element: "text"
-          label: "tags"
-          value: ""
-          placeholder: "Input your tags here"
-          type: "text"
+
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
