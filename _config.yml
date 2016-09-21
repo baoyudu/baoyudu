@@ -101,10 +101,10 @@ prose:
           value: "true"
                 
                 
-      - name: "tag"        
+      - name: "tags"  
         field:
-          element: "tag"
-          label: "tag"
+          element: "tags"
+          label: "tags"
           value: ""
-          placeholder: "Input your tag here"
+          placeholder: "Input your tags here"
           type: "text"
