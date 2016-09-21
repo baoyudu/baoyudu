@@ -95,7 +95,16 @@ prose:
           placeholder: "Input your abstract here"
           type: "text"
 
-      - name: "category"
+      - name: "published"
         field:
           element: "hidden"
-          value: "blog"
+          value: "true"
+                
+                
+      - name: "tag"        
+        field:
+          element: "tag"
+          label: "tag"
+          value: ""
+          placeholder: "Input your tag here"
+          type: "text"
