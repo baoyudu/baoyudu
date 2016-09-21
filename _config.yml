@@ -94,3 +94,31 @@ prose:
           value: ""
           placeholder: "Input your abstract here"
           type: "text"
+      - name: "tags"
+
+        field:
+
+          element: "multiselect"
+
+          label: "Add Tags"
+
+          placeholder: "Choose Tags"
+
+          options:
+
+            - name: "写作"
+
+              value: "写作"
+
+            - name: "技术"
+
+              value: "技术"
+
+            - name: "生活"
+
+              value: "生活"
+
+            - name: "音乐"
+
+              value: "音乐"
+
