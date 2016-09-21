@@ -101,8 +101,8 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
+            - name: "Write"
+              value: "write"
             - name: "Bananas"
               value: "bananas"
             - name: "Pears"
