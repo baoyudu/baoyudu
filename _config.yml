@@ -94,6 +94,7 @@ prose:
           value: ""
           placeholder: "Input your abstract here"
           type: "text"
+          
       - name: "tags"
 
         field:
