@@ -75,9 +75,8 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
-prose :
+prose:
   rooturl: "_posts"
-  media: "images"
   metadata:
     _posts:
       - name: "title"
@@ -103,3 +102,8 @@ prose :
           value: ""
           placeholder: "Input your tag here"
           type: "text"
+
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
