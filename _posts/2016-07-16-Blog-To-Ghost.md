@@ -1,9 +1,11 @@
 ---
 layout: post
 title: 博客迁移至ghost
-categories: [blog ]
-tags: [Blog]
-description: 
+categories:
+  - blog
+published: true
+tags:
+  - Internet
 ---
 
 
