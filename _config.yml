@@ -27,9 +27,14 @@ github_username: baoyudu
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 highlighter: pygments
-markdown: kramdowm
-kramdown:
-  input: GFM 
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
 
 gems: 
 - jekyll-gallery-generator
