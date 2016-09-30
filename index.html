@@ -17,7 +17,7 @@ description: "遙遠的地方 繁華中盡是空幽"
         </h3>
         {% endif %}
         <div class="post-content">
-            {{ post.content | truncate:150 }}
+            {{ post.content | strip_html | truncate:150 }}
         </div>
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
