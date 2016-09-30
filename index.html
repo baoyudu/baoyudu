@@ -2,27 +2,26 @@
 layout: page
 description: "遙遠的地方 繁華中盡是空幽"
 ---
-
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.title != "Untitled" %}
-        <h2 class="post-title">            
-            {{ post.title }}
+        {% if post.title != "Untitled" %} 
+        <h2 class="post-title">           
+        {{ post.title }}
         </h2>
-        {% endif %}
+        {% endif %} 
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <div class="post-content">
-            {{ post.content | strip_html | truncate:150 }}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+        
 </div>
-
 <hr>
 {% endfor %}
 
@@ -40,7 +39,6 @@ description: "遙遠的地方 繁華中盡是空幽"
     </li>
     {% endif %}
 </ul>
-
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
