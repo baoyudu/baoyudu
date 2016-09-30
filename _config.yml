@@ -1,6 +1,6 @@
 # Site settings
 title: 心路笔记
-header-img: "http://www.dujin.org/sys/bing/1366.php"
+header-img: "images/mountain.jpg"
 tagline: "心路笔记"  
 description: "遙遠的地方 繁華中盡是空幽"
 baseurl: ""
@@ -27,14 +27,9 @@ github_username: baoyudu
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - fenced_code_blocks
-    - no_intra_emphasis
-    - strikethrough
-    - autolink
-    - tables
+markdown: kramdowm
+kramdown:
+  input: GFM 
 
 gems: 
 - jekyll-gallery-generator
