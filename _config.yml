@@ -1,6 +1,6 @@
 # Site settings
 title: 心路笔记
-header-img: "tu.ihuan.me/api/bing"
+header-img: "http://ihuan.me/bing" 
 tagline: "心路笔记"  
 description: "遙遠的地方 繁華中盡是空幽"
 baseurl: ""
