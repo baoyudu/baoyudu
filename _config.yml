@@ -28,7 +28,7 @@ github_username: baoyudu
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 highlighter: rouge
 
-markdown: kramdowm
+markdown: kramdown
 kramdown:
   input: GFM
 gems: 
