@@ -1,10 +1,10 @@
 # Site settings
 title: 心路笔记
-header-img: images/gallery-example-3.jpg
+header-img: "images/gallery-example-3.jpg"
 tagline: "心路笔记"  
 description: "遙遠的地方 繁華中盡是空幽"
 baseurl: ""
-url: "http://bestbao.top" 
+url: "http://bestbao.top"  
 #url: "http://localhost:4000"
 
 # About/contact
