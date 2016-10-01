@@ -4,8 +4,6 @@ title: 献给故乡的过去——最美的家园
 date: '2015-11-29 20:32'
 author: admin
 comments: true
-categories:
-  - Write
 published: true
 tags:
   - Write
