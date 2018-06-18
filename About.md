@@ -17,7 +17,6 @@ header-img: "img/plane.jpg"
 
 *e-mail：baoyudu@outlook.com / 543441153@qq.com*
 
-——Bao
 
 
 > Do the most true self.
