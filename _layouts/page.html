@@ -3,6 +3,25 @@ layout: default
 ---
 
 <!-- Page Header -->
+
+    <!--??js??</body>??????-->
+    <!--Leancloud ???:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine ??????-->
+    <script src="./dist/Valine.min.js"></script>
+    <script>
+        new Valine({
+            // AV ????????av-min.js(????????????????)
+            av: AV, 
+            el: '.comment',
+            emoticon_url: 'https://cloud.panjunwen.com/alu',
+            emoticon_list: ["?.png","??.png","??.png","????.png","??.png","??.png"],
+            app_id: 'Your APP ID', // ?????????APP ID
+            app_key: 'Your APP KEY', // ?????????APP KEY
+            placeholder: '?????)o??????!', // ?????????
+        });
+    </script>
+    
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
