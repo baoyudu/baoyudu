@@ -2,7 +2,7 @@
 tags:
   - Life
 published: true
-title: 归途散记
+title: 归途小记
 ---
 
 时隔一年，终于又踏上了回家的路。
