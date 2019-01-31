@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Comments"
-description: "也许想对我说的话"
+description: "留言"
 header-img: "img/plane.jpg"
 ---
 
@@ -11,10 +11,12 @@ header-img: "img/plane.jpg"
     <div id="vcomments"></div>
     <script>
         new Valine({
-        	av: AV,
+        	
             el: '#vcomments',
             appId: 'BeeApcStlUBXM6bPAL7IkARW-gzGzoHsz',
             appKey: 'BLv3vsOcNayqGdcl1hGFxU9N'
+            placeholder: '在这里输入你的留言'
+            meta: ['nick']
         })
     </script>
 </body>
