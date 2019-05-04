@@ -18,4 +18,4 @@ published: true
 
 
 
-> Do the most true self.
+> Sunny and bright like the sunrise
