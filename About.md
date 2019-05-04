@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "About"
-description: "About me"
-header-img: "img/plane.jpg"
+title: About
+description: About me
+header-img: img/plane.jpg
+published: true
 ---
 
 <center>
@@ -11,13 +12,10 @@ header-img: "img/plane.jpg"
 
 
 
-
-
-爱折腾的轻度技术宅 感悟很多下笔很少的小文艺
+不仅是诗人
 
 *e-mail：baoyudu@outlook.com / 543441153@qq.com*
 
 
 
 > Do the most true self.
-
